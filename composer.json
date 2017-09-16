@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Cloudinary\\": "src/"
+      "CloudinaryModule\\": "src/"
     }
   }
 }

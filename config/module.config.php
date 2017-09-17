@@ -15,4 +15,12 @@ return array(
             Cloudinary::class => CloudinaryFactory::class,
         ),
     ),
+    'view_helpers' => [
+        'aliases' => [
+            'cloudinary' => \CloudinaryModule\View\Helper\Cloudinary::class,
+        ],
+        'factories' => [
+            \CloudinaryModule\View\Helper\Cloudinary::class => CloudinaryFactory::class,
+        ],
+    ],
 );

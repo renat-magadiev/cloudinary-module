@@ -31,4 +31,15 @@ class Cloudinary
     {
         return Uploader::upload($file, $options);
     }
+
+
+    /**
+     * @param string $file
+     * @param array  $options
+     * @return mixed|null|string
+     */
+    public function getLink(string $file, array $options = []): string
+    {
+        return cloudinary_url($file, $options);
+    }
 }

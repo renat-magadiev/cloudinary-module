@@ -20,7 +20,7 @@ return array(
             'cloudinary' => \CloudinaryModule\View\Helper\Cloudinary::class,
         ],
         'factories' => [
-            \CloudinaryModule\View\Helper\Cloudinary::class => CloudinaryFactory::class,
+            \CloudinaryModule\View\Helper\Cloudinary::class => \CloudinaryModule\View\Helper\CloudinaryFactory::class,
         ],
     ],
 );

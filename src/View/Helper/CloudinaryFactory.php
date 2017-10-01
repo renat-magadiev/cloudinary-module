@@ -7,6 +7,7 @@
  * @license     MIT License https://github.com/renat-magadiev/cloudinary-module/blob/master/LICENSE
  */
 
+namespace CloudinaryModule\View\Helper;
 use Zend\ServiceManager\AbstractPluginManager;
 
 class CloudinaryFactory
